@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/semogaberkah_webservice/Login?wsdl" uri="xml-resources/web-service-references/Login/wsdl/localhost_8080/semogaberkah_webservice/Login.wsdl"/>
+    <system systemId="http://localhost:8080/semogaberkah_webservice/Login?xsd=1" uri="xml-resources/web-service-references/Login/wsdl/localhost_8080/semogaberkah_webservice/Login.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Register?wsdl" uri="xml-resources/web-service-references/Register/wsdl/localhost_8080/semogaberkah_WebService/Register.wsdl"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Register?xsd=1" uri="xml-resources/web-service-references/Register/wsdl/localhost_8080/semogaberkah_WebService/Register.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Login_WS?wsdl" uri="xml-resources/web-service-references/Login_WS/wsdl/localhost_8080/semogaberkah_WebService/Login_WS.wsdl"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Login_WS?xsd=1" uri="xml-resources/web-service-references/Login_WS/wsdl/localhost_8080/semogaberkah_WebService/Login_WS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Register_WS?wsdl" uri="xml-resources/web-service-references/Register_WS/wsdl/localhost_8080/semogaberkah_WebService/Register_WS.wsdl"/>
+    <system systemId="http://localhost:8080/semogaberkah_WebService/Register_WS?xsd=1" uri="xml-resources/web-service-references/Register_WS/wsdl/localhost_8080/semogaberkah_WebService/Register_WS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/Menu?wsdl" uri="xml-resources/web-service-references/Menu/wsdl/localhost_8080/EzBookingWebService/Menu.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/Menu?xsd=1" uri="xml-resources/web-service-references/Menu/wsdl/localhost_8080/EzBookingWebService/Menu.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/RestaurantWS?wsdl" uri="xml-resources/web-service-references/RestaurantWS/wsdl/localhost_8080/EzBookingWebService/RestaurantWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/RestaurantWS?xsd=1" uri="xml-resources/web-service-references/RestaurantWS/wsdl/localhost_8080/EzBookingWebService/RestaurantWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/CustomerWS?wsdl" uri="xml-resources/web-service-references/CustomerWS/wsdl/localhost_8080/EzBookingWebService/CustomerWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/CustomerWS?xsd=1" uri="xml-resources/web-service-references/CustomerWS/wsdl/localhost_8080/EzBookingWebService/CustomerWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/MenuWS?wsdl" uri="xml-resources/web-service-references/MenuWS/wsdl/localhost_8080/EzBookingWebService/MenuWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/MenuWS?xsd=1" uri="xml-resources/web-service-references/MenuWS/wsdl/localhost_8080/EzBookingWebService/MenuWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/AdministratorWS?wsdl" uri="xml-resources/web-service-references/AdministratorWS/wsdl/localhost_8080/EzBookingWebService/AdministratorWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/AdministratorWS?xsd=1" uri="xml-resources/web-service-references/AdministratorWS/wsdl/localhost_8080/EzBookingWebService/AdministratorWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/BookingWS?wsdl" uri="xml-resources/web-service-references/BookingWS/wsdl/localhost_8080/EzBookingWebService/BookingWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/BookingWS?xsd=1" uri="xml-resources/web-service-references/BookingWS/wsdl/localhost_8080/EzBookingWebService/BookingWS.xsd_1.xsd"/>
+</catalog>

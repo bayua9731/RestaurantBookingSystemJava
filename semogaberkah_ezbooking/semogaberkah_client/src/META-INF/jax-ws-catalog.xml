@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/EzBookingWebService/RestaurantWS?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/RestaurantWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/RestaurantWS?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/RestaurantWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/CustomerWS?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/CustomerWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/CustomerWS?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/CustomerWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/BookingWS?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/BookingWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/BookingWS?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/BookingWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/Menu?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/Menu.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/Menu?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/Menu.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/MenuWS?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/MenuWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/MenuWS?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/MenuWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/AdministratorWS?wsdl" uri="wsdl/localhost_8080/EzBookingWebService/AdministratorWS.wsdl"/>
+    <system systemId="http://localhost:8080/EzBookingWebService/AdministratorWS?xsd=1" uri="wsdl/localhost_8080/EzBookingWebService/AdministratorWS.xsd_1.xsd"/>
+</catalog>

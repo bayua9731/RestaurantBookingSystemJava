@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://projectdistprog.ubaya.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://projectdistprog.ubaya.com/">
+
+<xs:element name="Display" type="tns:Display"/>
+
+<xs:element name="DisplayBook" type="tns:DisplayBook"/>
+
+<xs:element name="DisplayBookResponse" type="tns:DisplayBookResponse"/>
+
+<xs:element name="DisplayBookingCari" type="tns:DisplayBookingCari"/>
+
+<xs:element name="DisplayBookingCariResponse" type="tns:DisplayBookingCariResponse"/>
+
+<xs:element name="DisplayBookingMenu" type="tns:DisplayBookingMenu"/>
+
+<xs:element name="DisplayBookingMenuResponse" type="tns:DisplayBookingMenuResponse"/>
+
+<xs:element name="DisplayBookingRestaurant" type="tns:DisplayBookingRestaurant"/>
+
+<xs:element name="DisplayBookingRestaurantResponse" type="tns:DisplayBookingRestaurantResponse"/>
+
+<xs:element name="DisplayCountBookingByCustomer" type="tns:DisplayCountBookingByCustomer"/>
+
+<xs:element name="DisplayCountBookingByCustomerResponse" type="tns:DisplayCountBookingByCustomerResponse"/>
+
+<xs:element name="DisplayCountBookingByRestoran" type="tns:DisplayCountBookingByRestoran"/>
+
+<xs:element name="DisplayCountBookingByRestoranResponse" type="tns:DisplayCountBookingByRestoranResponse"/>
+
+<xs:element name="DisplayCountTanggalBooking" type="tns:DisplayCountTanggalBooking"/>
+
+<xs:element name="DisplayCountTanggalBookingResponse" type="tns:DisplayCountTanggalBookingResponse"/>
+
+<xs:element name="DisplayResponse" type="tns:DisplayResponse"/>
+
+<xs:element name="JumlahMejaBerdasarkanTanggal" type="tns:JumlahMejaBerdasarkanTanggal"/>
+
+<xs:element name="JumlahMejaBerdasarkanTanggalResponse" type="tns:JumlahMejaBerdasarkanTanggalResponse"/>
+
+<xs:element name="ParseException" type="tns:ParseException"/>
+
+<xs:element name="TambahBooking" type="tns:TambahBooking"/>
+
+<xs:element name="TambahBookingPreOrder" type="tns:TambahBookingPreOrder"/>
+
+<xs:element name="TambahBookingPreOrderResponse" type="tns:TambahBookingPreOrderResponse"/>
+
+<xs:element name="TambahBookingResponse" type="tns:TambahBookingResponse"/>
+
+<xs:element name="UpdateKeteranganBooking" type="tns:UpdateKeteranganBooking"/>
+
+<xs:element name="UpdateKeteranganBookingResponse" type="tns:UpdateKeteranganBookingResponse"/>
+
+<xs:element name="UpdateKeteranganPreOrder" type="tns:UpdateKeteranganPreOrder"/>
+
+<xs:element name="UpdateKeteranganPreOrderResponse" type="tns:UpdateKeteranganPreOrderResponse"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:complexType name="DisplayCountTanggalBooking">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplayCountTanggalBookingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingCari">
+<xs:sequence>
+<xs:element name="kriteria" type="xs:string" minOccurs="0"/>
+<xs:element name="value" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingCariResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="JumlahMejaBerdasarkanTanggal">
+<xs:sequence>
+<xs:element name="datetime" type="xs:string" minOccurs="0"/>
+<xs:element name="restaurant" type="xs:string" minOccurs="0"/>
+<xs:element name="time" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="JumlahMejaBerdasarkanTanggalResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Display">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplayResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingMenu">
+<xs:sequence>
+<xs:element name="kode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingMenuResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBook">
+<xs:sequence>
+<xs:element name="kodeCustomer" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingRestaurant">
+<xs:sequence>
+<xs:element name="kode" type="xs:string" minOccurs="0"/>
+<xs:element name="kriteria" type="xs:string" minOccurs="0"/>
+<xs:element name="value" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayBookingRestaurantResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateKeteranganBooking">
+<xs:sequence>
+<xs:element name="kode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateKeteranganBookingResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="UpdateKeteranganPreOrder">
+<xs:sequence>
+<xs:element name="kode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateKeteranganPreOrderResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="TambahBookingPreOrder">
+<xs:sequence>
+<xs:element name="restaurant" type="xs:string" minOccurs="0"/>
+<xs:element name="customer" type="xs:string" minOccurs="0"/>
+<xs:element name="tanggal" type="xs:string" minOccurs="0"/>
+<xs:element name="jumlahMeja" type="xs:int"/>
+<xs:element name="time" type="xs:string" minOccurs="0"/>
+<xs:element name="menu" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TambahBookingPreOrderResponse">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="ParseException">
+<xs:sequence>
+<xs:element name="errorOffset" type="xs:int"/>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayCountBookingByRestoran">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplayCountBookingByRestoranResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TambahBooking">
+<xs:sequence>
+<xs:element name="customer" type="xs:string" minOccurs="0"/>
+<xs:element name="restaurant" type="xs:string" minOccurs="0"/>
+<xs:element name="tanggal" type="xs:string" minOccurs="0"/>
+<xs:element name="jumlahMeja" type="xs:int"/>
+<xs:element name="time" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="TambahBookingResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayCountBookingByCustomer">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplayCountBookingByCustomerResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

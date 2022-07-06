@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="RestaurantWS">
+      <implementation-class>com.ubaya.projectdistprog.RestaurantWS</implementation-class>
+    </service>
+    <service name="CustomerWS">
+      <implementation-class>com.ubaya.projectdistprog.CustomerWS</implementation-class>
+    </service>
+    <service name="BookingWS">
+      <implementation-class>com.ubaya.projectdistprog.BookingWS</implementation-class>
+    </service>
+    <service name="MenuWS">
+      <implementation-class>com.ubaya.projectdistprog.MenuWS</implementation-class>
+    </service>
+    <service name="AdministratorWS">
+      <implementation-class>com.ubaya.projectdistprog.AdministratorWS</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

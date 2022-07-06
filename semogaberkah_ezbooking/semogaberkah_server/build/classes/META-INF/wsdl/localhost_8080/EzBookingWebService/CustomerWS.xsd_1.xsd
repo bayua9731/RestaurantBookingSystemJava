@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://projectdistprog.ubaya.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://projectdistprog.ubaya.com/">
+
+<xs:element name="AmbilDataCustomer" type="tns:AmbilDataCustomer"/>
+
+<xs:element name="AmbilDataCustomerResponse" type="tns:AmbilDataCustomerResponse"/>
+
+<xs:element name="CheckLoginCustomer" type="tns:CheckLoginCustomer"/>
+
+<xs:element name="CheckLoginCustomerResponse" type="tns:CheckLoginCustomerResponse"/>
+
+<xs:element name="CheckRegisterCustomer" type="tns:CheckRegisterCustomer"/>
+
+<xs:element name="CheckRegisterCustomerResponse" type="tns:CheckRegisterCustomerResponse"/>
+
+<xs:element name="Display" type="tns:Display"/>
+
+<xs:element name="DisplayCusCari" type="tns:DisplayCusCari"/>
+
+<xs:element name="DisplayCusCariResponse" type="tns:DisplayCusCariResponse"/>
+
+<xs:element name="DisplayResponse" type="tns:DisplayResponse"/>
+
+<xs:element name="hello" type="tns:hello"/>
+
+<xs:element name="helloResponse" type="tns:helloResponse"/>
+
+<xs:complexType name="hello">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="helloResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Display">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplayResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CheckLoginCustomer">
+<xs:sequence>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CheckLoginCustomerResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CheckRegisterCustomer">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="nomor_telepon" type="xs:string" minOccurs="0"/>
+<xs:element name="alamat" type="xs:string" minOccurs="0"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CheckRegisterCustomerResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AmbilDataCustomer">
+<xs:sequence>
+<xs:element name="kode" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AmbilDataCustomerResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayCusCari">
+<xs:sequence>
+<xs:element name="kriteria" type="xs:string" minOccurs="0"/>
+<xs:element name="value" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayCusCariResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
